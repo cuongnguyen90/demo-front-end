@@ -1,0 +1,132 @@
+.like_share_mxh_fb {
+    float: right;
+    padding-top: 10px
+}
+
+.mxh_like_fb, .mxh_like_gl, .mxh_send_fb, .mxh_share_fb {
+    padding: 5px 0;
+    float: left
+}
+
+.mxh_send_fb {
+    width: 66px
+}
+
+.mxh_like_fb {
+    width: 137px
+}
+
+.mxh_share_fb {
+    width: 100px
+}
+
+.mxh_like_gl {
+    width: 66px
+}
+
+.mxh_share_gl {
+    width: 66px;
+    float: left;
+    padding-top: 4px
+}
+
+.modal-dialog {
+    z-index: 99999;
+    margin-top: 70px;
+}
+
+.img-listen-audio-small, .img-listen-video-small {
+    width: 25px;
+}
+
+.box_menu_mobile .box-menu-lv1 {
+    font-weight: bold;
+}
+
+.box_menu_mobile .box-menu-lv2 {
+    text-transform: uppercase;
+}
+
+.box_menu_mobile li ul li.active-child a {
+    color: #ba1f23;
+}
+
+.box_menu_mobile li ul li ul li.active-child a {
+    color: #ba1f23;
+}
+
+.footer_right .row {
+    display: inline-block
+}
+
+.wrap-dcma-logo {
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    display: inline-block;
+}
+
+.validate-error-form {
+    font-size: 14px;
+    font-family: Roboto;
+    color: #c20000;
+    font-style: italic;
+    margin-top: 5px;
+    display: none;
+}
+
+.modal-header .close {
+    margin-top: -28px !important;
+}
+
+.social_user_detail a img.hover {
+    display: none;
+}
+
+.social_user_detail a:hover img.no_hover {
+    display: none;
+}
+
+.social_user_detail a:hover img.hover {
+    display: inline-block;
+}
+.box_search_top img{
+    height: 26px;
+    margin-top: 15px;
+    margin-left: 3px;
+}
+
+
+@media (min-width: 767px) {
+    #wrap-dcma {
+        margin-top: 19px;
+    }
+
+    .box-left .content-slider-features .item h3 a {
+        padding: 3px 8px 0 !important;
+    }
+    .box_detail_magazine .box_item .big_item {
+        height: 500px;
+    }
+    .big_item_category img{
+        height: 196px;
+        width: 347px
+    }
+
+}
+
+@media (max-width: 767px) {
+    #wrap-dcma {
+        width: 87px;
+    }
+
+    .wrap-dcma-logo a img#ic-blogradio-white {
+        height: 28px;
+    }
+    .description iframe {
+        width: 100% !important;
+    }
+    .box-banner img {
+        border-radius: 5px;
+    }
+}
